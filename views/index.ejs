@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+    <%-include("navbar")%>
+
+    <section class="introduction container">
+        <div class="yapping">
+            <h1>Welcome To Blog-Life</h1>
+            <h5>Where stories meet inspiration.</h5>
+            <p>At Blog-Life, we believe every experience, idea, and moment is worth sharing. From personal journeys to tips, trends, and thought-provoking insights — this is your space to explore, learn, and connect. Dive into articles that spark curiosity, fuel creativity, and bring fresh perspectives to your everyday life</p>
+            <h4>Live it. Write it. Share it</h4>
+        </div>
+    </section>
+    <%-include("gridBlog")%>
+    <%-include("plusBtn")%>    
+    <%- include("footer") %>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="/home.js" charset="UTF-8"></script>
+</body>
+</html>
